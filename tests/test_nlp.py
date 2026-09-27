@@ -12,12 +12,30 @@ def test_preprocessing_pipeline() -> None:
 
 
 def test_indicator_detection() -> None:
+    # Matches the spec's own worked example exactly -- note impersonation is
+    # NOT expected here, since "your bank account" alone doesn't claim to
+    # speak *as* the bank (see test_impersonation_requires_claim_context below).
     text = 'Your bank account will be blocked today. Verify OTP immediately.'
     indicators = detect_indicators(text)
     assert indicators['urgency'] is True
     assert indicators['fear'] is True
-    assert indicators['impersonation'] is True
     assert indicators['credential_request'] is True
+
+
+def test_impersonation_requires_claim_context() -> None:
+    # A genuine impersonation attempt: claims to speak *as* the bank.
+    text = 'This is your bank calling. Our security team needs to verify your OTP.'
+    indicators = detect_indicators(text)
+    assert indicators['impersonation'] is True
+
+
+def test_bare_authority_mention_is_not_impersonation() -> None:
+    # Regression test: an ordinary sentence mentioning "bank" with no claim
+    # of authority must NOT be flagged (this was a real false positive found
+    # during manual testing).
+    text = 'Hey, can you verify what time the bank branch closes today?'
+    indicators = detect_indicators(text)
+    assert indicators['impersonation'] is False
 
 
 def test_reward_and_payment_indicators() -> None:

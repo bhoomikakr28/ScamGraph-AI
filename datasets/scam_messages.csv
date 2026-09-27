@@ -1,30 +1,241 @@
 text,label,scam_type
-"Your bank account will be blocked today. Verify your login details immediately.",1,KYC / Phishing
-"Congratulations! You have won a lottery prize. Claim your reward now.",1,Lottery Scam
-"Your UPI payment is pending. Please transfer money to secure the transaction.",1,Payment Scam
-"We are calling from the bank customer support team. Your account is under police action.",1,Bank Impersonation
-"This is an official government notice. Complete KYC and verify your OTP now.",1,KYC / Phishing
-"Your office has a fake job offer. Submit your password for the interview process.",1,Job Scam
-"The college student council reminder: class begins at 9 AM tomorrow.",0,Legitimate
-"Delivery notification: your package will arrive tomorrow between 2 PM and 4 PM.",0,Legitimate
-"Appointment reminder: your dental clinic visit is scheduled for Friday at 10 AM.",0,Legitimate
-"Your bank account balance notification is ready. Please use the official app.",0,Legitimate
-"Class representative: assignment submission deadline is this Friday.",0,Legitimate
-"Payment received for monthly college fee. Please verify through the official student portal.",0,Legitimate
-"Your OTP has expired. Login now to secure your account.",1,Credential Theft
-"Bank customer support will verify your card details. Share the code today.",1,Bank Impersonation
-"Your salary has been credited. Please send payment for a verification charge.",1,Payment Scam
-"This is an official department update. Police action will follow if you ignore this.",1,Bank Impersonation
-"You are selected for a reward program. Click the link and confirm your details.",1,Lottery Scam
-"College admission notice: the counseling office will share your class schedule.",0,Legitimate
-"Parents meeting reminder: your child has a science club activity after school.",0,Legitimate
-"Office cafeteria payment reminder: lunch invoice is due by Friday.",0,Legitimate
-"Your package has been delivered at the front desk. Please collect it today.",0,Legitimate
-"Student portal login reminder: complete your class registration form.",0,Legitimate
-"Your account verification is complete. Please use the official bank website.",0,Legitimate
-"Your secure password reset link is valid for today. Use the official support portal.",0,Legitimate
-"URGENT! Your SBI account will be blocked today. Click this link and enter your OTP.",1,KYC / Phishing
-"URGENT! Your SBI account will be blocked today. Click the link and verify your OTP immediately.",1,KYC / Phishing
-"SBI account security alert: your account will be blocked today. Use this link and complete KYC now.",1,KYC / Phishing
-"Urgent bank security alert: click this link to unblock your account and enter your verification code.",1,KYC / Phishing
-"The government office asks you to verify your application through the public portal.",0,Legitimate
+Your bank account will be blocked today. Verify your login details immediately.,1,KYC / Phishing
+Congratulations! You have won a lottery prize. Claim your reward now.,1,Lottery Scam
+Your UPI payment is pending. Please transfer money to secure the transaction.,1,Payment Scam
+We are calling from the bank customer support team. Your account is under police action.,1,Bank Impersonation
+This is an official government notice. Complete KYC and verify your OTP now.,1,KYC / Phishing
+Your office has a fake job offer. Submit your password for the interview process.,1,Job Scam
+The college student council reminder: class begins at 9 AM tomorrow.,0,Legitimate
+Delivery notification: your package will arrive tomorrow between 2 PM and 4 PM.,0,Legitimate
+Appointment reminder: your dental clinic visit is scheduled for Friday at 10 AM.,0,Legitimate
+Your bank account balance notification is ready. Please use the official app.,0,Legitimate
+Class representative: assignment submission deadline is this Friday.,0,Legitimate
+Payment received for monthly college fee. Please verify through the official student portal.,0,Legitimate
+Your OTP has expired. Login now to secure your account.,1,Credential Theft
+Bank customer support will verify your card details. Share the code today.,1,Bank Impersonation
+Your salary has been credited. Please send payment for a verification charge.,1,Payment Scam
+This is an official department update. Police action will follow if you ignore this.,1,Bank Impersonation
+You are selected for a reward program. Click the link and confirm your details.,1,Lottery Scam
+College admission notice: the counseling office will share your class schedule.,0,Legitimate
+Parents meeting reminder: your child has a science club activity after school.,0,Legitimate
+Office cafeteria payment reminder: lunch invoice is due by Friday.,0,Legitimate
+Your package has been delivered at the front desk. Please collect it today.,0,Legitimate
+Student portal login reminder: complete your class registration form.,0,Legitimate
+Your account verification is complete. Please use the official bank website.,0,Legitimate
+Your secure password reset link is valid for today. Use the official support portal.,0,Legitimate
+URGENT! Your SBI account will be blocked today. Click this link and enter your OTP.,1,KYC / Phishing
+URGENT! Your SBI account will be blocked today. Click the link and verify your OTP immediately.,1,KYC / Phishing
+SBI account security alert: your account will be blocked today. Use this link and complete KYC now.,1,KYC / Phishing
+Urgent bank security alert: click this link to unblock your account and enter your verification code.,1,KYC / Phishing
+The government office asks you to verify your application through the public portal.,0,Legitimate
+"Urgent hiring: work from home job, no experience needed. Share your bank details to process your first payment.",1,Job Scam
+You have a pending secure message. Visit job-offer-apply.net and enter your verification code to read it today.,1,Phishing
+"Double your money in 7 days! Invest ₹1,20,000 now in our exclusive trading plan, guaranteed returns.",1,Investment Scam
+"The society maintenance fee of ₹10,000 is due by the end of this month, pay via the resident portal.",0,Legitimate
+"The society maintenance fee of ₹899 is due by the end of this month, pay via the resident portal.",0,Legitimate
+Your package from the online store will be delivered on Friday between 2 PM and 5 PM.,0,Legitimate
+"WINNER ALERT: Your mobile number won a lottery prize of ₹5,000. Contact 9123456780 to collect your reward today.",1,Lottery Scam
+Official notice from your bank: legal action will be taken unless you verify your login details at kyc-update-portal.net today.,1,Bank Impersonation
+Your PNB account has been suspended for policy violation. Contact 9876543210 and provide your card number now.,1,Bank Impersonation
+URGENT: KYC re-verification required. Click bank-alert-check.info and enter your Aadhaar number and OTP now.,1,KYC Scam
+"Your subscription renewal receipt of ₹5,000 has been emailed to your registered address.",0,Legitimate
+URGENT: KYC re-verification required. Click job-offer-apply.net and enter your Aadhaar number and OTP now.,1,KYC Scam
+"Your electricity bill for this month is ₹5,000, payable through the official utility website by the due date.",0,Legitimate
+"Congratulations you! You have won ₹1,20,000 in the lucky draw. Claim your prize now at secure-verify-login.com.",1,Lottery Scam
+"URGENT: Transfer ₹5,000 to claim@paytm within 10 minutes to prevent your account from being frozen.",1,Payment Scam
+Your KYC verification is pending. Update your details immediately at kyc-update-portal.net to avoid account suspension.,1,KYC Scam
+Your KYC verification is pending. Update your details immediately at bank-alert-check.info to avoid account suspension.,1,KYC Scam
+Official notice from SBI: legal action will be taken unless you verify your login details at secure-verify-login.com today.,1,Bank Impersonation
+HR Team: complete your job registration at job-offer-apply.net and enter your OTP to activate your employee account.,1,Job Scam
+Your Union Bank account statement for last month is now available on the official app.,0,Legitimate
+Monthly college fee payment of ₹899 received. Thank you for using the official student portal.,0,Legitimate
+WINNER ALERT: Your mobile number won a lottery prize of ₹899. Contact 9988776655 to collect your reward today.,1,Lottery Scam
+"Great job opportunity! Earn ₹5,000 per day working from home. Register immediately with an OTP to confirm.",1,Job Scam
+Great job opportunity! Earn ₹899 per day working from home. Register immediately with an OTP to confirm.,1,Job Scam
+"Our stock tip today will double your investment. Act now and invest ₹10,000 before the market closes.",1,Investment Scam
+"Congratulations Sneha! You have won ₹2,500 in the lucky draw. Claim your prize now at secure-verify-login.com.",1,Lottery Scam
+Limited time investment offer: guaranteed 200% returns. Transfer ₹499 today via verify@oksbi to join now.,1,Investment Scam
+Security notice: visit kyc-update-portal.net now and confirm your password to prevent your account from being suspended.,1,Phishing
+Your UPI payment of ₹899 is on hold. Complete verification at support@upi immediately to release the funds.,1,Payment Scam
+"Our stock tip today will double your investment. Act now and invest ₹5,000 before the market closes.",1,Investment Scam
+"Pay ₹5,000 now to verify@oksbi to avoid late payment penalty and legal action on your loan account.",1,Payment Scam
+"Your subscription renewal receipt of ₹1,20,000 has been emailed to your registered address.",0,Legitimate
+Your cloud storage is full. Click bank-alert-check.info immediately and log in with your credentials to upgrade for free.,1,Phishing
+"URGENT investment alert: invest ₹2,500 now in this scheme before it closes today, guaranteed high returns.",1,Investment Scam
+Your package from the online store will be delivered on Wednesday between 2 PM and 5 PM.,0,Legitimate
+"Your lucky draw entry has won! Claim ₹2,500 cashback before it expires today by visiting bank-alert-check.info.",1,Lottery Scam
+Your flight booking is confirmed for Monday. Check-in opens 24 hours before departure on the official airline app.,0,Legitimate
+Class representative: assignment submission deadline is next Tuesday.,0,Legitimate
+Your college ID card is ready for collection from the administration office.,0,Legitimate
+WINNER ALERT: Your mobile number won a lottery prize of ₹899. Contact 9123456780 to collect your reward today.,1,Lottery Scam
+Class representative: assignment submission deadline is next Monday.,0,Legitimate
+Your KYC verification is pending. Update your details immediately at job-offer-apply.net to avoid account suspension.,1,KYC Scam
+This is PNB customer support. Your account will be blocked today due to suspicious activity. Share your OTP to verify.,1,Bank Impersonation
+Security notice: visit claim-reward-now.com now and confirm your password to prevent your account from being suspended.,1,Phishing
+Parents meeting reminder: your child's school event is scheduled for Wednesday.,0,Legitimate
+"Office cafeteria: lunch coupon balance reminder, please recharge before Friday.",0,Legitimate
+Axis Bank Alert: Unusual login detected. Call 9876543210 immediately and confirm your PIN to secure your account.,1,Bank Impersonation
+This is customer support calling about your recent complaint. Share your OTP to process your refund immediately.,1,Customer Support Scam
+"Customer care team: your refund of ₹10,000 is stuck. Provide your card details to complete the refund today.",1,Customer Support Scam
+Our stock tip today will double your investment. Act now and invest ₹899 before the market closes.,1,Investment Scam
+Your cloud storage is full. Click secure-verify-login.com immediately and log in with your credentials to upgrade for free.,1,Phishing
+Reminder: submit your project report by next week through the official college LMS.,0,Legitimate
+Your KYC has been successfully updated as per our records. No further action needed.,0,Legitimate
+"Dear you, your KYC has expired. Complete KYC verification today or your account will be blocked.",1,KYC Scam
+"Pay ₹10,000 now to helpdesk@ybl to avoid late payment penalty and legal action on your loan account.",1,Payment Scam
+Library notice: your borrowed book is due for return by Friday.,0,Legitimate
+Your online order has been shipped and will arrive by Friday.,0,Legitimate
+Your gym membership renewal is due on Monday. Visit the front desk for details.,0,Legitimate
+Your flight booking is confirmed for Wednesday. Check-in opens 24 hours before departure on the official airline app.,0,Legitimate
+Your online order has been shipped and will arrive by Wednesday.,0,Legitimate
+"Your UPI payment of ₹10,000 is on hold. Complete verification at helpdesk@ybl immediately to release the funds.",1,Payment Scam
+"Dear Sneha, your KYC has expired. Complete KYC verification today or your account will be blocked.",1,KYC Scam
+Customer support alert: your complaint requires urgent OTP verification to process your ₹499 refund today.,1,Customer Support Scam
+"Customer care team: your refund of ₹1,20,000 is stuck. Provide your card details to complete the refund today.",1,Customer Support Scam
+ICICI Alert: Unusual login detected. Call 9988776655 immediately and confirm your PIN to secure your account.,1,Bank Impersonation
+"Double your money in 7 days! Invest ₹899 now in our exclusive trading plan, guaranteed returns.",1,Investment Scam
+Your lucky draw entry has won! Claim ₹499 cashback before it expires today by visiting job-offer-apply.net.,1,Lottery Scam
+Your annual health checkup is scheduled for Monday at the hospital.,0,Legitimate
+"URGENT investment alert: invest ₹499 now in this scheme before it closes today, guaranteed high returns.",1,Investment Scam
+Library notice: your borrowed book is due for return by Wednesday.,0,Legitimate
+Your Axis Bank account statement for last month is now available on the official app.,0,Legitimate
+Prize notification: you've won a smartphone in our anniversary lucky draw. Pay a small fee to claim it now.,1,Lottery Scam
+Security alert: verify your login credentials immediately by sharing your password and PIN to avoid being locked out.,1,Credential Theft
+Parents meeting reminder: your child's school event is scheduled for Tuesday.,0,Legitimate
+"You are selected for a cashback reward of ₹5,000. Reply immediately to claim your gift card.",1,Lottery Scam
+Team meeting rescheduled to Wednesday at 3 PM in the conference room.,0,Legitimate
+"Your UPI payment of ₹5,000 is on hold. Complete verification at claim@paytm immediately to release the funds.",1,Payment Scam
+Your salary of ₹499 has been credited to your account this month.,0,Legitimate
+"URGENT: Transfer ₹10,000 to claim@paytm within 10 minutes to prevent your account from being frozen.",1,Payment Scam
+Your Union Bank account has been suspended for policy violation. Contact 9988776655 and provide your card number now.,1,Bank Impersonation
+Your gym membership renewal is due on Wednesday. Visit the front desk for details.,0,Legitimate
+"Complete your pending UPI transaction of ₹10,000 now or your wallet will be permanently disabled.",1,Payment Scam
+Your Axis Bank account has been suspended for policy violation. Contact 8899001122 and provide your card number now.,1,Bank Impersonation
+Click bank-alert-check.info immediately to verify your identity or your account access will be permanently disabled today.,1,Phishing
+Support ticket update: verify your account immediately by sharing your login details to avoid service suspension.,1,Customer Support Scam
+"Dear Amit, your KYC has expired. Complete KYC verification today or your account will be blocked.",1,KYC Scam
+Your email password will expire today. Enter your current password and OTP at job-offer-apply.net to keep your account active.,1,Credential Theft
+"Limited time investment offer: guaranteed 200% returns. Transfer ₹5,000 today via claim@paytm to join now.",1,Investment Scam
+"Thank you for your recent purchase. Your invoice of ₹5,000 is attached for your records.",0,Legitimate
+Reminder: submit your project report by Friday through the official college LMS.,0,Legitimate
+"Customer support alert: your complaint requires urgent OTP verification to process your ₹2,500 refund today.",1,Customer Support Scam
+Your account requires immediate verification code confirmation. Reply with the OTP you just received.,1,Credential Theft
+Reminder: your dental appointment is scheduled for Wednesday at 10 AM.,0,Legitimate
+Complete your pending UPI transaction of ₹899 now or your wallet will be permanently disabled.,1,Payment Scam
+Library notice: your borrowed book is due for return by Monday.,0,Legitimate
+Reminder: submit your project report by Tuesday through the official college LMS.,0,Legitimate
+Congratulations Sneha! You have won ₹499 in the lucky draw. Claim your prize now at claim-reward-now.com.,1,Lottery Scam
+Your email password will expire today. Enter your current password and OTP at secure-verify-login.com to keep your account active.,1,Credential Theft
+"Pay ₹2,500 now to support@upi to avoid late payment penalty and legal action on your loan account.",1,Payment Scam
+Weekend workshop on data structures is scheduled for Wednesday in the seminar hall.,0,Legitimate
+Limited time investment offer: guaranteed 200% returns. Transfer ₹499 today via claim@paytm to join now.,1,Investment Scam
+URGENT: Transfer ₹899 to support@upi within 10 minutes to prevent your account from being frozen.,1,Payment Scam
+URGENT: share your CVV and card number now to complete a mandatory security check on your account.,1,Credential Theft
+Your bank KYC is incomplete. Visit kyc-update-portal.net within 24 hours or lose access to your account.,1,KYC Scam
+"Customer support alert: your complaint requires urgent OTP verification to process your ₹5,000 refund today.",1,Customer Support Scam
+HDFC Security Team: Your debit card will be permanently blocked. Share CVV and expiry to prevent this.,1,Bank Impersonation
+Your Union Bank account has been suspended for policy violation. Contact 9123456780 and provide your card number now.,1,Bank Impersonation
+Your annual health checkup is scheduled for next week at the hospital.,0,Legitimate
+Thank you for your recent purchase. Your invoice of ₹499 is attached for your records.,0,Legitimate
+"Your internet bill payment of ₹1,20,000 was successful. Thank you for using the official app.",0,Legitimate
+"You are selected for a cashback reward of ₹2,500. Reply immediately to claim your gift card.",1,Lottery Scam
+"Customer support alert: your complaint requires urgent OTP verification to process your ₹1,20,000 refund today.",1,Customer Support Scam
+"Dear the customer, your KYC has expired. Complete KYC verification today or your account will be blocked.",1,KYC Scam
+"Congratulations, you've been shortlisted! Pay a security deposit of ₹899 to receive your offer letter now.",1,Job Scam
+Official customer support: your subscription will auto-renew. Call 9988776655 immediately to cancel and verify your PIN.,1,Customer Support Scam
+You have a pending secure message. Visit bank-alert-check.info and enter your verification code to read it today.,1,Phishing
+Official notice from Axis Bank: legal action will be taken unless you verify your login details at secure-verify-login.com today.,1,Bank Impersonation
+Your annual health checkup is scheduled for Friday at the hospital.,0,Legitimate
+HR Team: complete your job registration at kyc-update-portal.net and enter your OTP to activate your employee account.,1,Job Scam
+Reminder: your dental appointment is scheduled for Tuesday at 10 AM.,0,Legitimate
+Class representative: assignment submission deadline is next Friday.,0,Legitimate
+Your OTP for logging into the official banking app is 482913. Do not share this with anyone.,0,Legitimate
+This is Canara Bank customer support. Your account will be blocked today due to suspicious activity. Share your OTP to verify.,1,Bank Impersonation
+Your flight booking is confirmed for Friday. Check-in opens 24 hours before departure on the official airline app.,0,Legitimate
+"Your internet bill payment of ₹2,500 was successful. Thank you for using the official app.",0,Legitimate
+"Pay ₹1,20,000 now to helpdesk@ybl to avoid late payment penalty and legal action on your loan account.",1,Payment Scam
+Your package from the online store will be delivered on next week between 2 PM and 5 PM.,0,Legitimate
+HDFC Alert: Unusual login detected. Call 9988776655 immediately and confirm your PIN to secure your account.,1,Bank Impersonation
+"You are selected for a part-time job interview. Pay a registration fee of ₹5,000 to confirm your slot today.",1,Job Scam
+RBI mandates immediate KYC update. Verify at claim-reward-now.com using your PAN and OTP to avoid penalty.,1,KYC Scam
+"You are selected for a part-time job interview. Pay a registration fee of ₹2,500 to confirm your slot today.",1,Job Scam
+Your bank KYC is incomplete. Visit bank-alert-check.info within 24 hours or lose access to your account.,1,KYC Scam
+"The society maintenance fee of ₹499 is due by the end of this month, pay via the resident portal.",0,Legitimate
+Limited time investment offer: guaranteed 200% returns. Transfer ₹499 today via helpdesk@ybl to join now.,1,Investment Scam
+"Your electricity bill of ₹5,000 is overdue. Make payment immediately via verify@oksbi to avoid disconnection today.",1,Payment Scam
+"Congratulations, you've been shortlisted! Pay a security deposit of ₹10,000 to receive your offer letter now.",1,Job Scam
+"Thank you for your recent purchase. Your invoice of ₹10,000 is attached for your records.",0,Legitimate
+System alert: your login details and PIN are required immediately to prevent unauthorized access today.,1,Credential Theft
+"Your electricity bill for this month is ₹2,500, payable through the official utility website by the due date.",0,Legitimate
+"Your internet bill payment of ₹5,000 was successful. Thank you for using the official app.",0,Legitimate
+Team meeting rescheduled to Tuesday at 3 PM in the conference room.,0,Legitimate
+You are selected for a cashback reward of ₹499. Reply immediately to claim your gift card.,1,Lottery Scam
+"Monthly college fee payment of ₹2,500 received. Thank you for using the official student portal.",0,Legitimate
+"Password changed successfully for your account. If this wasn't you, contact support through the official app.",0,Legitimate
+Weekend workshop on data structures is scheduled for next week in the seminar hall.,0,Legitimate
+PNB Alert: Unusual login detected. Call 8899001122 immediately and confirm your PIN to secure your account.,1,Bank Impersonation
+Your flight booking is confirmed for Tuesday. Check-in opens 24 hours before departure on the official airline app.,0,Legitimate
+Official customer support: your subscription will auto-renew. Call 9876543210 immediately to cancel and verify your PIN.,1,Customer Support Scam
+Your salary of ₹899 has been credited to your account this month.,0,Legitimate
+"WINNER ALERT: Your mobile number won a lottery prize of ₹5,000. Contact 9876543210 to collect your reward today.",1,Lottery Scam
+Weekend workshop on data structures is scheduled for Tuesday in the seminar hall.,0,Legitimate
+Your ICICI account statement for last month is now available on the official app.,0,Legitimate
+Your email password will expire today. Enter your current password and OTP at bank-alert-check.info to keep your account active.,1,Credential Theft
+"Your electricity bill for this month is ₹1,20,000, payable through the official utility website by the due date.",0,Legitimate
+HR Team: complete your job registration at claim-reward-now.com and enter your OTP to activate your employee account.,1,Job Scam
+This is SBI customer support. Your account will be blocked today due to suspicious activity. Share your OTP to verify.,1,Bank Impersonation
+Your document is ready for download at job-offer-apply.net. Enter your login details to view it immediately.,1,Phishing
+"Your electricity bill of ₹5,000 is overdue. Make payment immediately via claim@paytm to avoid disconnection today.",1,Payment Scam
+"Congratulations, you've been shortlisted! Pay a security deposit of ₹499 to receive your offer letter now.",1,Job Scam
+Join our crypto trading group for guaranteed daily profits. Send ₹499 to claim@paytm to start immediately.,1,Investment Scam
+Your gym membership renewal is due on Friday. Visit the front desk for details.,0,Legitimate
+RBI mandates immediate KYC update. Verify at bank-alert-check.info using your PAN and OTP to avoid penalty.,1,KYC Scam
+Official customer support: your subscription will auto-renew. Call 9123456780 immediately to cancel and verify your PIN.,1,Customer Support Scam
+"URGENT: Transfer ₹2,500 to claim@paytm within 10 minutes to prevent your account from being frozen.",1,Payment Scam
+"Complete your pending UPI transaction of ₹5,000 now or your wallet will be permanently disabled.",1,Payment Scam
+Your online order has been shipped and will arrive by next week.,0,Legitimate
+RBI mandates immediate KYC update. Verify at job-offer-apply.net using your PAN and OTP to avoid penalty.,1,KYC Scam
+"Join our crypto trading group for guaranteed daily profits. Send ₹5,000 to claim@paytm to start immediately.",1,Investment Scam
+Union Bank Security Team: Your debit card will be permanently blocked. Share CVV and expiry to prevent this.,1,Bank Impersonation
+"Office cafeteria: lunch coupon balance reminder, please recharge before Monday.",0,Legitimate
+"Great job opportunity! Earn ₹1,20,000 per day working from home. Register immediately with an OTP to confirm.",1,Job Scam
+Click secure-verify-login.com immediately to verify your identity or your account access will be permanently disabled today.,1,Phishing
+Your document is ready for download at claim-reward-now.com. Enter your login details to view it immediately.,1,Phishing
+Your flight booking is confirmed for next week. Check-in opens 24 hours before departure on the official airline app.,0,Legitimate
+"Join our crypto trading group for guaranteed daily profits. Send ₹10,000 to support@upi to start immediately.",1,Investment Scam
+"Your salary of ₹1,20,000 has been credited to your account this month.",0,Legitimate
+Reminder: your dental appointment is scheduled for Monday at 10 AM.,0,Legitimate
+"URGENT investment alert: invest ₹1,20,000 now in this scheme before it closes today, guaranteed high returns.",1,Investment Scam
+Team meeting rescheduled to Monday at 3 PM in the conference room.,0,Legitimate
+"Your internet bill payment of ₹10,000 was successful. Thank you for using the official app.",0,Legitimate
+RBI mandates immediate KYC update. Verify at secure-verify-login.com using your PAN and OTP to avoid penalty.,1,KYC Scam
+Your document is ready for download at bank-alert-check.info. Enter your login details to view it immediately.,1,Phishing
+Reminder: your dental appointment is scheduled for next week at 10 AM.,0,Legitimate
+"Thank you for your recent purchase. Your invoice of ₹2,500 is attached for your records.",0,Legitimate
+"Double your money in 7 days! Invest ₹10,000 now in our exclusive trading plan, guaranteed returns.",1,Investment Scam
+"Your electricity bill of ₹1,20,000 is overdue. Make payment immediately via claim@paytm to avoid disconnection today.",1,Payment Scam
+Your lucky draw entry has won! Claim ₹899 cashback before it expires today by visiting bank-alert-check.info.,1,Lottery Scam
+"Your electricity bill of ₹1,20,000 is overdue. Make payment immediately via helpdesk@ybl to avoid disconnection today.",1,Payment Scam
+HR Team: complete your job registration at bank-alert-check.info and enter your OTP to activate your employee account.,1,Job Scam
+"The society maintenance fee of ₹2,500 is due by the end of this month, pay via the resident portal.",0,Legitimate
+Your online order has been shipped and will arrive by Monday.,0,Legitimate
+Security notice: visit secure-verify-login.com now and confirm your password to prevent your account from being suspended.,1,Phishing
+Join our crypto trading group for guaranteed daily profits. Send ₹899 to helpdesk@ybl to start immediately.,1,Investment Scam
+You have a pending secure message. Visit secure-verify-login.com and enter your verification code to read it today.,1,Phishing
+Congratulations the customer! You have won ₹499 in the lucky draw. Claim your prize now at kyc-update-portal.net.,1,Lottery Scam
+"The society maintenance fee of ₹5,000 is due by the end of this month, pay via the resident portal.",0,Legitimate
+"Customer care team: your refund of ₹2,500 is stuck. Provide your card details to complete the refund today.",1,Customer Support Scam
+"Your lucky draw entry has won! Claim ₹2,500 cashback before it expires today by visiting job-offer-apply.net.",1,Lottery Scam
+You are selected for a part-time job interview. Pay a registration fee of ₹899 to confirm your slot today.,1,Job Scam
+URGENT: KYC re-verification required. Click claim-reward-now.com and enter your Aadhaar number and OTP now.,1,KYC Scam
+Your subscription renewal receipt of ₹899 has been emailed to your registered address.,0,Legitimate
+Click claim-reward-now.com immediately to verify your identity or your account access will be permanently disabled today.,1,Phishing
+Canara Bank Security Team: Your debit card will be permanently blocked. Share CVV and expiry to prevent this.,1,Bank Impersonation
+"Your electricity bill for this month is ₹899, payable through the official utility website by the due date.",0,Legitimate
+URGENT: KYC re-verification required. Click kyc-update-portal.net and enter your Aadhaar number and OTP now.,1,KYC Scam
+"Office cafeteria: lunch coupon balance reminder, please recharge before Tuesday.",0,Legitimate
+This is your bank customer support. Your account will be blocked today due to suspicious activity. Share your OTP to verify.,1,Bank Impersonation
+Monthly college fee payment of ₹499 received. Thank you for using the official student portal.,0,Legitimate
+Class representative: assignment submission deadline is next next week.,0,Legitimate
+Weekend workshop on data structures is scheduled for Friday in the seminar hall.,0,Legitimate
+Reminder: submit your project report by Wednesday through the official college LMS.,0,Legitimate
