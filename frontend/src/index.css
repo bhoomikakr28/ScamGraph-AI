@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+  color: #dce8ff;
+  background: #07111f;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(109, 52, 201, 0.20), transparent),
+    radial-gradient(circle at right, rgba(33, 121, 236, 0.14), transparent),
+    #07111f;
+  color: #dce8ff;
+}
+
+.app-shell {
+  min-height: 100vh;
+  padding: 40px 24px;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  color: #c7a6ff;
+  letter-spacing: -0.04em;
+}
+
+.tagline {
+  color: #adc0e6;
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: minmax(620px, 2fr) minmax(280px, 1fr);
+  gap: 24px;
+  align-items: start;
+  margin-top: 30px;
+}
+
+.analysis-column,
+.history-column {
+  background: rgba(16, 31, 56, 0.78);
+  border: 1px solid rgba(190, 206, 255, 0.12);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+}
+
+.message-input-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+textarea {
+  width: 100%;
+  background: #0b1830;
+  border: 1px solid #445a92;
+  color: #edf4ff;
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.analyze-button {
+  align-self: flex-start;
+  border: none;
+  background: linear-gradient(135deg, #745dff, #9b41ff);
+  color: white;
+  font-weight: 700;
+  padding: 12px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.example-messages {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.example-messages button,
+.history-item {
+  background: #12234a;
+  color: #dce8ff;
+  border: 1px solid #31466b;
+  border-radius: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.result-panel,
+.probability-row {
+  background: rgba(8, 17, 34, 0.85);
+  border-radius: 12px;
+  padding: 18px;
+  margin-top: 18px;
+  border: 1px solid #22385d;
+}
+
+.risk-score-label,
+.result-label {
+  color: #aab7dd;
+  font-size: 0.84rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.risk-score-value {
+  font-size: 3rem;
+  color: #b093ff;
+  font-weight: 800;
+}
+
+.risk-score-level {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.probability-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.evidence-list,
+.recommendation-list {
+  margin: 10px 0 0 0;
+  padding-left: 20px;
+}
+
+.checkmark {
+  color: #7cffb6;
+}
+
+.history-column h2 {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.history-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.history-id {
+  display: block;
+  font-weight: 700;
+}
+
+.history-level,
+.history-type,
+.history-score {
+  display: block;
+  color: #aabdde;
+  font-size: 0.86rem;
+}
+
+.error-box,
+.loading-box {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 10px;
+  color: white;
+  background: #681b1b;
+}
+
+@media (max-width: 980px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}

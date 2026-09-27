@@ -8,6 +8,20 @@ AI-Powered Multimodal Scam Investigation &amp; Attack-Chain Intelligence Platfor
 
 ScamGraph AI is a software-based AI/ML platform designed to detect, investigate, explain, and correlate digital scams.
 
+Important: the current initial model shipped in this repository is a baseline research model trained on the included synthetic dataset. It is intentionally lightweight and should be considered a proof-of-concept baseline. Performance depends on dataset quality, label quality, and the scope of the provided sample messages. The model artifacts are generated from the local training pipeline and are stored in backend/models.
+
+### Phase 1 ML Pipeline
+
+The Phase 1 training flow is:
+
+Dataset → Text preprocessing → TF-IDF vectorization → Logistic Regression → Scam probability output
+
+The actual model artifacts are saved in backend/models using the Python training command:
+
+```bash
+python -m backend.ml.train
+```
+
 Unlike traditional systems that only classify content as "Scam" or "Safe", ScamGraph AI analyzes multiple digital artifacts and connects them to reconstruct potential scam attack chains.
 
 The system will initially support:

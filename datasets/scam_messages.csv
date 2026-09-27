@@ -1,0 +1,30 @@
+text,label,scam_type
+"Your bank account will be blocked today. Verify your login details immediately.",1,KYC / Phishing
+"Congratulations! You have won a lottery prize. Claim your reward now.",1,Lottery Scam
+"Your UPI payment is pending. Please transfer money to secure the transaction.",1,Payment Scam
+"We are calling from the bank customer support team. Your account is under police action.",1,Bank Impersonation
+"This is an official government notice. Complete KYC and verify your OTP now.",1,KYC / Phishing
+"Your office has a fake job offer. Submit your password for the interview process.",1,Job Scam
+"The college student council reminder: class begins at 9 AM tomorrow.",0,Legitimate
+"Delivery notification: your package will arrive tomorrow between 2 PM and 4 PM.",0,Legitimate
+"Appointment reminder: your dental clinic visit is scheduled for Friday at 10 AM.",0,Legitimate
+"Your bank account balance notification is ready. Please use the official app.",0,Legitimate
+"Class representative: assignment submission deadline is this Friday.",0,Legitimate
+"Payment received for monthly college fee. Please verify through the official student portal.",0,Legitimate
+"Your OTP has expired. Login now to secure your account.",1,Credential Theft
+"Bank customer support will verify your card details. Share the code today.",1,Bank Impersonation
+"Your salary has been credited. Please send payment for a verification charge.",1,Payment Scam
+"This is an official department update. Police action will follow if you ignore this.",1,Bank Impersonation
+"You are selected for a reward program. Click the link and confirm your details.",1,Lottery Scam
+"College admission notice: the counseling office will share your class schedule.",0,Legitimate
+"Parents meeting reminder: your child has a science club activity after school.",0,Legitimate
+"Office cafeteria payment reminder: lunch invoice is due by Friday.",0,Legitimate
+"Your package has been delivered at the front desk. Please collect it today.",0,Legitimate
+"Student portal login reminder: complete your class registration form.",0,Legitimate
+"Your account verification is complete. Please use the official bank website.",0,Legitimate
+"Your secure password reset link is valid for today. Use the official support portal.",0,Legitimate
+"URGENT! Your SBI account will be blocked today. Click this link and enter your OTP.",1,KYC / Phishing
+"URGENT! Your SBI account will be blocked today. Click the link and verify your OTP immediately.",1,KYC / Phishing
+"SBI account security alert: your account will be blocked today. Use this link and complete KYC now.",1,KYC / Phishing
+"Urgent bank security alert: click this link to unblock your account and enter your verification code.",1,KYC / Phishing
+"The government office asks you to verify your application through the public portal.",0,Legitimate

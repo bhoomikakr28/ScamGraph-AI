@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.db
+.venv/
+.env
+.env.*
+
+# Model artifacts generated during training
+backend/models/*.joblib
+
+# Node / frontend
+node_modules/
+dist/
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Local test artifacts
+.coverage
+.pytest_cache/
