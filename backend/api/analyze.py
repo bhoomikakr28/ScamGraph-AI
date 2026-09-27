@@ -3,14 +3,14 @@
 from fastapi import APIRouter, HTTPException, status
 
 from backend.schemas.investigation import AnalyzeRequest, AnalyzeResponse
-from backend.services.temporary_analysis import temporary_analyze
+from backend.services.analysis_service import analyze_message
 
 router = APIRouter()
 
 
 @router.post("/api/analyze", response_model=AnalyzeResponse)
 def analyze(request: AnalyzeRequest) -> AnalyzeResponse:
-    """Validate the supplied message and then return the ML-backed temporary service result."""
+    """Validate the supplied message, then run the full Step 4 investigation pipeline."""
     if not request.text or not request.text.strip():
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
@@ -18,7 +18,7 @@ def analyze(request: AnalyzeRequest) -> AnalyzeResponse:
         )
 
     try:
-        return temporary_analyze(request)
+        return analyze_message(request)
     except FileNotFoundError as exc:
         raise HTTPException(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,

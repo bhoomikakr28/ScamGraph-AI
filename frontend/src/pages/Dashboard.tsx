@@ -6,10 +6,12 @@ import { EvidenceList } from '../components/EvidenceList'
 import { ScamType } from '../components/ScamType'
 import { Explanation } from '../components/Explanation'
 import { Recommendation } from '../components/Recommendation'
+import { EntitiesSummary } from '../components/EntitiesSummary'
+import type { InvestigationResult } from '../types/investigation'
 
 export function Dashboard() {
   const [text, setText] = useState('')
-  const [result, setResult] = useState<any>(null)
+  const [result, setResult] = useState<InvestigationResult | null>(null)
   const [history, setHistory] = useState<any[]>([])
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
@@ -66,6 +68,7 @@ export function Dashboard() {
                 <strong>{Math.round(result.scam_probability * 100)}%</strong>
               </div>
               <EvidenceList evidence={result.evidence} />
+              <EntitiesSummary entities={result.entities} />
               <Explanation evidence={result.evidence} />
               <Recommendation recommendations={result.recommendations} />
             </section>

@@ -1,11 +1,16 @@
-export function Explanation({ evidence }: { evidence: Array<{ indicator: string; severity: string; reason: string }> }) {
+import type { EvidenceItem } from '../types/investigation'
+
+export function Explanation({ evidence }: { evidence: EvidenceItem[] }) {
   return (
     <section className="result-panel">
       <h3>Why was this flagged?</h3>
       <div className="explanation-list">
         {evidence.map((item, index) => (
-          <div className="explanation-item" key={index}>
-            <span className="explanation-indicator">{item.indicator}</span>
+          <div className={`explanation-item severity-${item.severity}`} key={index}>
+            <div className="explanation-header">
+              <span className="explanation-indicator">{item.type}</span>
+              <span className="explanation-severity">{item.severity.toUpperCase()}</span>
+            </div>
             <span className="explanation-reason">{item.reason}</span>
           </div>
         ))}

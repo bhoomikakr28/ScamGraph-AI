@@ -44,3 +44,29 @@ def test_analyze_response_returns_evidence_and_recommendations() -> None:
     payload = response.json()
     assert payload['evidence']
     assert payload['recommendations']
+
+
+def test_analyze_response_complete_schema() -> None:
+    response = client.post('/api/analyze', json={
+        'text': 'URGENT! Your bank account will be blocked today. Visit secure-example.com and enter your OTP immediately.'
+    })
+    assert response.status_code == 200
+    payload = response.json()
+
+    for field in ('investigation_id', 'risk_score', 'risk_level', 'scam_probability',
+                  'scam_type', 'indicators', 'entities', 'evidence', 'recommendations', 'timestamp'):
+        assert field in payload
+
+    assert payload['investigation_id']
+    for entity_field in ('urls', 'phone_numbers', 'emails', 'upi_ids'):
+        assert entity_field in payload['entities']
+
+    for item in payload['evidence']:
+        assert set(item.keys()) == {'type', 'severity', 'reason', 'source'}
+
+
+def test_two_calls_produce_different_investigation_ids() -> None:
+    text = {'text': 'Your bank account will be blocked. Complete KYC immediately.'}
+    first = client.post('/api/analyze', json=text).json()
+    second = client.post('/api/analyze', json=text).json()
+    assert first['investigation_id'] != second['investigation_id']

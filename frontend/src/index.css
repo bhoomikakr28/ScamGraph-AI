@@ -141,6 +141,73 @@ textarea {
   color: #7cffb6;
 }
 
+.entities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.entity-cell {
+  background: #0b1830;
+  border: 1px solid #22385d;
+  border-radius: 10px;
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.entity-label {
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #aab7dd;
+}
+
+.entity-count {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #edf4ff;
+  margin-top: 4px;
+}
+
+.explanation-item {
+  border-left: 3px solid #445a92;
+  padding: 8px 0 8px 12px;
+  margin-top: 10px;
+}
+
+.explanation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.explanation-indicator {
+  font-weight: 700;
+}
+
+.explanation-severity {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #22385d;
+}
+
+.explanation-reason {
+  display: block;
+  color: #aabdde;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.severity-high .explanation-severity { background: #6c1f2c; color: #ffb4c0; }
+.severity-medium .explanation-severity { background: #6c4f1f; color: #ffd9a0; }
+.severity-info .explanation-severity { background: #1f4a6c; color: #a8e0ff; }
+
 .history-column h2 {
   margin-top: 0;
   font-size: 1.3rem;

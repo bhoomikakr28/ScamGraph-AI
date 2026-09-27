@@ -4,6 +4,13 @@ export interface InvestigationRequest {
   text: string
 }
 
+export interface EvidenceItem {
+  type: string
+  severity: string
+  reason: string
+  source: string
+}
+
 export interface InvestigationResult {
   investigation_id: string
   risk_score: number
@@ -12,16 +19,12 @@ export interface InvestigationResult {
   scam_type: string
   indicators: string[]
   entities: {
-    phone_numbers?: string[]
-    upi_ids?: string[]
-    urls?: string[]
-    emails?: string[]
+    phone_numbers: string[]
+    upi_ids: string[]
+    urls: string[]
+    emails: string[]
   }
-  evidence: Array<{
-    indicator: string
-    severity: string
-    reason: string
-  }>
+  evidence: EvidenceItem[]
   recommendations: string[]
   timestamp: string
 }
